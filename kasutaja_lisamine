@@ -1,0 +1,6 @@
+#!bin/bash
+#
+#Kasutaja lisamine
+useradd $kasutajanimi -m -s /bin/bash
+echo "kasutaja $kasutajanimi on lisatud"
+
