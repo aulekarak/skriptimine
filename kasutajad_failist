@@ -6,7 +6,7 @@ else
 	failinimi=$1
 	if [ -f $failnimi ]; then
 	echo "fail korras"
-	for nimi in $(cat $failinimi)
+	for kasutaja in $(cat $failinimi)
 	do
 		kasutajanimi=$(echo "$rida" | cut -fl -d:)
 		sh kasutaja_lisamine $kasutajanimi
